@@ -5,7 +5,7 @@ import discourse_api
 
 
 """
-# 🗨️ 📈 Streamlit forums stats
+# 🗨️ Streamlit forums stats
 """
 
 """

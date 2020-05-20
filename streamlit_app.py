@@ -28,7 +28,7 @@ st.table(categories.T)
 days = st.selectbox(
     'How many days to look back',
     [1, 7, 10, 14, 21, 28, 30, 60, 90],
-    1)
+    6)
 
 raw_topics = discourse_api.fetch_latest_topics_by_timedelta(days=days)
 
